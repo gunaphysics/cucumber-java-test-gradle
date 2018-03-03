@@ -1,0 +1,75 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Add 2 numbers and print",
+        "description": "",
+        "id": "test-google-;add-2-numbers-and-print",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 97698719,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Numbers 12 and 20",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 8
+                },
+                {
+                  "val": "20",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefs.getNumbers(int,int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 486324,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "we add the numbers",
+            "match": {
+              "location": "StepDefs.add()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2192991,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "we will get the result as 32",
+            "match": {
+              "arguments": [
+                {
+                  "val": "32",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefs.verifyResult(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Google!",
+    "description": "",
+    "id": "test-google-",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/test.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,1 @@
+**To run the tests and generate report :** `gradle clean test generate`
